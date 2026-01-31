@@ -1,3 +1,4 @@
+[Mini USB 8P PORT（JLC number：C5274731）](https://item.szlcsc.com/7279358.html)
 # Mini USB 8P 接口线序测定报告
 
 &gt; 测定方法：拆装验证法（控制变量法）  
