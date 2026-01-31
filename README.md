@@ -40,4 +40,45 @@ JLC 等平台的 **Mini8P** 封装与常见线材的对应关系缺乏公开文�
 | **7** | **D-** | 白 | USB 差分信号- |
 | **8** | **VCC** | 红 | 电源正极 +5V |
 
-### 简化记忆（仅充电场景）
+
+# Mini USB 8P Pinout Determination Report
+
+> **Methodology:** Disassembly & Verification (Controlled Variable Method)  
+> **Target Object:** Mini USB 8P Female Socket (JLC Part Number Keyword: Mini8P)
+
+---
+
+## 1. Background
+
+Although Mini USB interfaces are gradually being phased out, they are still used in retro electronic devices.  
+As public documentation regarding the mapping between **Mini8P** footprints on platforms like JLC and common cable wiring is scarce, this determination was conducted.
+
+---
+
+## 2. Methodology
+
+The **Disassembly & Verification** method was used:
+
+1. Disassemble the Mini USB plug to expose the solder joints.
+2. Record the relationship between solder joints and wire colors.
+3. Reassemble and connect an MP3 player to a computer to verify normal functionality.
+4. Repeat the disassembly and assembly process twice to ensure results are reproducible.
+
+**Verification Standard**: The device must be correctly recognized by and communicate with the computer after reassembly.
+
+---
+
+## 3. Pinout Definition (View from Mini USB 8P Female Socket)
+
+Facing the soldering pins of the interface, the pads are numbered 1-8 from left to right:
+
+| Pin | Function | Common Wire Color | Remarks |
+|:---:|:---|:---|:---|
+| **1** | **GND** | Black | Power Negative |
+| 2 | NC | - | Not Connected |
+| 3 | NC | - | Not Connected |
+| 4 | NC | - | Not Connected |
+| **5** | **D+** | Green | USB Differential Signal + |
+| 6 | NC | - | Not Connected |
+| **7** | **D-** | White | USB Differential Signal - |
+| **8** | **VCC** | Red | Power Positive +5V |
